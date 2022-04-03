@@ -25,8 +25,11 @@ endif
 
 # Turbo Prebuilt package for Battery Estimates
 PRODUCT_PACKAGES += \
-    TurboPrebuilt
-
+    DeviceIntelligenceNetworkPrebuilt \
+    DevicePersonalizationPrebuiltPixel2021 \
+    SettingsIntelligenceGooglePrebuilt \
+    TurboPrebuilt \
+    FlipendoPrebuilt
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
